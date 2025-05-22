@@ -17,9 +17,9 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = os.getenv("API_ID", "")
-API_HASH = os.getenv("API_HASH", "")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+API_ID = os.getenv("21707705", "")
+API_HASH = os.getenv("317937fef1c8eecaacca7b7bb16174c9", "")
+BOT_TOKEN = os.getenv("7672816193:AAFSrwEx-dIzOaznIEe85gu26tx2kuqqgeg", "")
 MONGO_DB = os.getenv("MONGO_DB", "")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "").split())) # list seperated via space
 DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
